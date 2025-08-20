@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Nginx!</title>
+    <!-- Tailwind CSS CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure full page coverage and centering */
+        body {
+            font-family: 'Inter', sans-serif; /* Use Inter font */
+            background-color: #e0f2f7; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Make sure it takes the full viewport height */
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent unwanted scrollbars */
+        }
+
+        .content-box {
+            background-color: #ffffff; /* White background for the content box */
+            padding: 60px 80px; /* Generous padding */
+            border-radius: 20px; /* More rounded corners */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+            text-align: center;
+            max-width: 80%; /* Responsive width */
+            transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+        }
+
+        .content-box:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+        }
+
+        h1 {
+            color: #2c3e50; /* Dark blue text */
+            font-size: 3.5rem; /* Large font size for "Hello, World!" */
+            font-weight: 800; /* Extra bold */
+            margin: 0; /* Remove default margin */
+            letter-spacing: 2px; /* A bit of letter spacing */
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .content-box {
+                padding: 40px 50px;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content-box {
+                padding: 30px 40px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <h1>Hello-World Nginx!</h1>
+    </div>
+</body>
+</html>
