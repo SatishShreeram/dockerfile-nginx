@@ -38,7 +38,7 @@ docker build -t hello-nginx .
 Check if the image was successfully created by listing all local Docker images:
 
 ```bash
-docker images
+docker images --filter "reference=hello-nginx"
 ```
 
 ### 5. Run the Docker Container
