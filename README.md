@@ -17,7 +17,7 @@ Follow these steps to build and run the application using Docker:
 Clone this repository to a local folder on your machine:
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/SatishSreeram/dockerfile-nginx.git
 ```
 
 ### 2. Navigate to the Project Directory
